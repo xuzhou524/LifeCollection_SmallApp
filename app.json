@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/found/found",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Time",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#f7f7f7",
+    "color": "#ABB1C2",
+    "selectedColor": "#ffad3e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/tab_bar_home@3x.png",
+        "selectedIconPath": "/images/tab_bar_home_sel@3x.png"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "iconPath": "/images/tab_bar_found@3x.png",
+        "selectedIconPath": "/images/tab_bar_found_sel@3x.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "/images/tab_bar_user@3x.png",
+        "selectedIconPath": "/images/tab_bar_user_sel@3x.png"
+      }
+    ]
+  }
+}
