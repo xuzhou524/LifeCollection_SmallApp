@@ -1,4 +1,9 @@
 /**index.wxss**/
+
+.useer_head {
+  margin-top: 50rpx;
+}
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -6,16 +11,41 @@
 }
 
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
+  width: 150rpx;
+  height: 150rpx;
   margin: 20rpx;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  font-size: 28rpx;
+  color: rgb(77, 92, 127);
 }
 
-.usermotto {
-  margin-top: 200px;
+
+.section {
+  margin-top: 50rpx;
+	color: #2e2e2e;
+	font-size: 28rpx;
+  background: #fff;
+	border-bottom: 1rpx solid #dedede;
+}
+.section .line {
+	margin-left: 20rpx;
+	padding-right: 20rpx;
+	line-height: 3;
+	border-bottom: 1px solid #efefef;
+}
+.section .line:last-child {
+	border-bottom: none;
+}
+.section .line:before {
+	content: '>';
+	float: right;
+	color: #aaa;
+	margin-left: 20rpx;
+}
+.section .line .tl {
+	float: right;
+	color: #aaa;
 }

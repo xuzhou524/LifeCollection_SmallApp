@@ -1,13 +1,15 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view class="homeContainer">
+  <block wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8]}}">
+    <view class='listBg_background'>
+      <view class="section_cont" bindtap="navigateDetail">
+        <view class="section_cont_title">
+          <text>让生活更精彩</text>
+        </view>
+        <view class="section_cont_date">
+          <text>目标日:2019-07-07</text>
+        </view>
+      </view>
+    </view>
+  </block>
 </view>
